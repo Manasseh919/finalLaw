@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import logo
-import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/fifth5.jpeg';
+// import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/fifth5.jpeg';
 
 // import data
 import { footer } from '../data';
@@ -11,9 +11,9 @@ const Footer = () => {
     <footer className='section bg-primary text-white'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
-          <a className='mb-6 lg:mb-0' href='#'>
+          {/* <a className='mb-6 lg:mb-0' href='#'>
             <img src={Logo} alt='' />
-          </a>
+          </a> */}
           <div className='flex gap-x-4'>
             {footer.social.map((item, index) => {
               return (
