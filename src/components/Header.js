@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // import logo
-// import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/fifth5.jpeg';
+import Logo from '../assets/img/THelawyers.png';
 // import icons
 import { CgMenuRight, CgClose } from 'react-icons/cg';
 // import data
@@ -38,9 +38,9 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo */}
-          {/* <a href='#'>
+          <a href='#'>
             <img className='h-6 lg:h-8' src={Logo} alt='' />
-          </a> */}
+          </a>
           {/* menu icon */}
           <div
             onClick={() => setMobileNav(!mobileNav)}
