@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import logo
-import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/THelawyers.png';
+import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/fifth5.jpeg';
 
 // import data
 import { footer } from '../data';
