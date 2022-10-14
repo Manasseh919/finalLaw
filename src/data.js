@@ -40,7 +40,7 @@ export const navigation = [
 
   {
     name: "About Us",
-    href: "features",
+    href: "about",
   },
   {
     name: "Services",
@@ -315,7 +315,7 @@ export const newsletter = {
   title: "Get more discount Off your service",
   subtitle: "Join our mailing list",
   placeholder: "Your email address",
-  buttonText: "Receive our mails",
+  buttonText: "Receive Mails",
 };
 
 export const footer = {
