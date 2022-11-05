@@ -40,7 +40,7 @@ export const navigation = [
 
   {
     name: "About Us",
-    href: "about",
+    href: "features",
   },
   {
     name: "Services",
