@@ -9,7 +9,6 @@ import { Autoplay, Navigation } from 'swiper';
 // import data
 import { testimonial } from '../data';
 
-
 const TestimonialSlider = () => {
   return (
     <Swiper
@@ -23,7 +22,6 @@ const TestimonialSlider = () => {
         return (
           <SwiperSlide key={index}>
             <div className='flex flex-col min-h-[250px]'>
-              
               <div className='flex items-center gap-x-5 mb-9'>
                 {/* avatar */}
                 <img src={avatar.type} alt=''   />
@@ -33,7 +31,7 @@ const TestimonialSlider = () => {
                 </div>
               </div>
               {/* text */}
-              {/* <div className='text-xl max-w-[570px]'>{message}</div> */}
+              <div className='text-xl max-w-[570px]'>{message}</div>
             </div>
           </SwiperSlide>
         );
