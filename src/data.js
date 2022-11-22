@@ -80,9 +80,9 @@ export const stats = [
 
 export const features = {
   image: <Features1Img />,
-  title: "Communicate with our clients",
+  title: "Client Communication",
   subtitle:
-    "Conduct research and analysis of legal problems. Interpret laws, rulings, and regulations for individuals and businesses.",
+    "conduct research and analysis of legal problems by interpreting laws, rulings, and regulations for individuals and businesses.conduct research and analysis of legal problems by interpreting laws, rulings, and regulations for individuals and businesses.",
   buttonText: "Reach out",
   items: [
     {
@@ -98,9 +98,9 @@ export const features = {
   ],
   feature2: {
     image: <Features2Img />,
-    title: "Highly effective at developing creative strategies",
+    title: "Highly adept and effective in developing creative legal strategies.",
     subtitle:
-      "Thrives in dynamic environments and quickly adapt to the ever-changing demans of the legal field",
+      "Thrives in dynamic environments and quickly adapts to the ever-changing demands of the legal field.",
   },
 };
 
@@ -289,7 +289,7 @@ export const testimonial = {
   persons: [
     {
       avatar: <Avatar1Img />,
-      name: "CARLA HINES",
+      name: "Esq. Carla Hines",
       occupation: "CEO",
       message:
         "“She are have a perfect touch to make something so professional ,interest and useful for a lot of people .”",
@@ -312,10 +312,10 @@ export const testimonial = {
 };
 
 export const newsletter = {
-  title: "Get more discount Off your service",
-  subtitle: "Join our mailing list",
+  title: "Receive discounts off future services",
+  subtitle: "By joining our mailing list",
   placeholder: "Your email address",
-  buttonText: "Receive Mails",
+  buttonText: "Receive emails",
 };
 
 export const footer = {
